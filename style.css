@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    font-size: medium;
+    width: 95%;
+    display: block;
+    text-align: left;
+}
+
+.auto {cursor: auto;}
+
+.home {
+    display: block;
+    color: grey;
+    text-decoration: none;
+    text-align: center;
+}
+
+.articles {
+    display: block;
+    text-align: center;
+    color: darkslategrey;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#careerjourney {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+
+
+@media (min-width: 1024px) {
+    #flourish-mobile { display: none; }
+}
+
+@media (max-width: 1023px) {
+    #flourish-desktop { display: none; }
+}
